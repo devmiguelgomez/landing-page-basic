@@ -54,4 +54,4 @@ Los estilos son personalizables mediante:
 
 - **Variables CSS**: Colores principales, fondos, etc. en `:root` dentro de `index.css`
 - **Bootstrap**: Utiliza las clases de Bootstrap para personalizar el diseño
-# landing-page-basic
+
