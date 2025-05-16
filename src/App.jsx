@@ -19,12 +19,12 @@ function App() {
     title: 'Desarrollador MERN Stack & Diseñador UI/UX',
     tagline: 'Transformando ideas en experiencias digitales 🚀',
     // Reemplaza estas URLs con las rutas a tus imágenes locales:
-    profileImage: '/assets/profile.jpg', // Debe estar en la carpeta public/assets/
+    profileImage: '/assets/profile.jpeg', // Debe estar en la carpeta public/assets/
     about: `Desarrollador MERN Stack especializado en crear aplicaciones web modernas con React, Node.js, MongoDB y Express. Me apasiona crear soluciones tecnológicas elegantes y funcionales que resuelvan problemas reales.`,
     socialLinks: {
-      linkedin: 'https://linkedin.com/in/miguel-gomez',
-      github: 'https://github.com/miguel-gomez',
-      google: 'mailto:miguel.gomez@ejemplo.com'
+      linkedin: 'https://www.linkedin.com/in/devmiguelgomez/',
+      github: 'https://github.com/devmiguelgomez',
+      google: 'mailto:devmiguelgomez@gmail.com'
     },
     projects: [
       {
@@ -34,7 +34,7 @@ function App() {
         technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
         imageUrl: '/assets/project1.jpg', // Debe estar en la carpeta public/assets/
         githubUrl: 'https://github.com/miguel-gomez/ecommerce-platform',
-        liveUrl: 'https://ecommerce-platform-demo.netlify.app'
+        liveUrl: 'https://ecommerce-example.app'
       },
       {
         id: 2,
@@ -42,8 +42,8 @@ function App() {
         description: 'Aplicación de chat en tiempo real con salas privadas y públicas.',
         technologies: ['Socket.io', 'Express', 'React', 'MongoDB'],
         imageUrl: '/assets/project2.jpg', // Debe estar en la carpeta public/assets/
-        githubUrl: 'https://github.com/miguel-gomez/chat-app',
-        liveUrl: 'https://realtime-chat-demo.netlify.app'
+        githubUrl: 'https://github.com/devmiguelgomez',
+        liveUrl: 'https://realtime-example.app'
       },
       {
         id: 3,
@@ -51,8 +51,17 @@ function App() {
         description: 'Dashboard para visualización de datos con gráficos interactivos.',
         technologies: ['React', 'D3.js', 'Node.js', 'PostgreSQL'],
         imageUrl: '/assets/project3.jpg', // Debe estar en la carpeta public/assets/
-        githubUrl: 'https://github.com/miguel-gomez/analytics-dashboard',
-        liveUrl: 'https://analytics-dashboard-demo.netlify.app'
+        githubUrl: 'https://github.com/devmiguelgomez',
+        liveUrl: 'https://analytics-example.app'
+      },
+            {
+        id: 4,
+        title: 'Dashboard Analítico',
+        description: 'Dashboard para visualización de datos con gráficos interactivos.',
+        technologies: ['React', 'D3.js', 'Node.js', 'PostgreSQL'],
+        imageUrl: '/assets/project1.jpg', // Debe estar en la carpeta public/assets/
+        githubUrl: 'https://github.com/devmiguelgomez',
+        liveUrl: 'https://analytics-example.app'
       }
     ],
     skills: [
@@ -60,7 +69,8 @@ function App() {
       'Desarrollo Backend con Node.js',
       'MongoDB y Bases de datos NoSQL',
       'UI/UX Design',
-      'MERN Stack completo'
+      'MERN Stack completo',
+      'Hola compañeros :D'
     ]
   });
 
