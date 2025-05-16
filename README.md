@@ -24,7 +24,7 @@ Una elegante landing page para mostrar tu portfolio profesional, desarrollada co
 portfolio-landing/  
 │  
 ├── public/  
-│   └── assets/ # Imágenes del proyecto (profile.jpg, project1.jpg, etc.)  
+│   └── assets/ # Imágenes del proyecto (profile.jpg, project1.jpg, etc.)
 │  
 ├── src/  
 │   ├── components/ # Componentes React  
