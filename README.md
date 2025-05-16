@@ -21,7 +21,25 @@ Una elegante landing page para mostrar tu portfolio profesional, desarrollada co
 
 ## 📁 Estructura del Proyecto
 
-portfolio-landing/ │ ├── public/ │ └── assets/ # Imágenes del proyecto (profile.jpg, project1.jpg, etc.) │ ├── src/ │ ├── components/ # Componentes React │ │ ├── Header.jsx # Componente de encabezado con info personal │ │ ├── About.jsx # Componente de sección "Sobre Mí" │ │ ├── Projects.jsx # Componente para mostrar proyectos │ │ └── Footer.jsx # Pie de página con información de contacto │ │ │ ├── App.jsx # Componente principal que integra todo │ ├── main.jsx # Punto de entrada de React │ └── index.css # Estilos globales │ ├── index.html # HTML principal ├── package.json # Dependencias y scripts └── vite.config.js # Configuración de Vite
+portfolio-landing/  
+│  
+├── public/  
+│   └── assets/ # Imágenes del proyecto (profile.jpg, project1.jpg, etc.)  
+│  
+├── src/  
+│   ├── components/ # Componentes React  
+│   │   ├── Header.jsx # Componente de encabezado con info personal  
+│   │   ├── About.jsx # Componente de sección "Sobre Mí"  
+│   │   ├── Projects.jsx # Componente para mostrar proyectos  
+│   │   └── Footer.jsx # Pie de página con información de contacto  
+│   │  
+│   ├── App.jsx # Componente principal que integra todo  
+│   ├── main.jsx # Punto de entrada de React  
+│   └── index.css # Estilos globales  
+│  
+├── index.html # HTML principal  
+├── package.json # Dependencias y scripts  
+└── vite.config.js # Configuración de Vite
 
 
 ## 💼 Personalización
@@ -54,4 +72,3 @@ Los estilos son personalizables mediante:
 
 - **Variables CSS**: Colores principales, fondos, etc. en `:root` dentro de `index.css`
 - **Bootstrap**: Utiliza las clases de Bootstrap para personalizar el diseño
-# landing-page-basic
